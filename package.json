@@ -1,0 +1,17 @@
+{
+  "name": "ocrawler",
+  "version": "1.0.0",
+  "description": "oued kniss crawler cli",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adel Mohamed Tadjerouni",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.2.1",
+    "inquirer": "^7.3.3"
+  }
+}
