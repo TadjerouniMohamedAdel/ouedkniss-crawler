@@ -1,8 +1,8 @@
 {
   "name": "ocrawler",
   "version": "1.0.0",
-  "description": "oued kniss crawler cli",
-  "main": "index.js",
+  "description": "The OuedKniss Crawler is a tool created to help people to do some research at ouedkniss.com website more quickly,so safo happy hack",
+  "main": "commands.js",
   "preferGlobal": true,
   "bin": "./commands.js",
   "scripts": {
@@ -11,7 +11,15 @@
   "author": "Adel Mohamed Tadjerouni",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.0",
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.3",
     "commander": "^6.2.1",
-    "inquirer": "^7.3.3"
+    "csv-writer": "^1.6.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "node-emoji": "^1.10.0",
+    "ora": "^5.1.0",
+    "valid-url": "^1.0.9"
   }
 }
